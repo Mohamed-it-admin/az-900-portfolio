@@ -1,33 +1,39 @@
-# Lab 05: Secure Third-Party File Sharing in Microsoft Azure
+# Lab 05 — Secure File Sharing
 
-## 🏢 Project Overview
-This project implements a secure, business-to-business (B2B) file-sharing architecture using **Azure Blob Storage**. The core requirement was to share a sensitive data file (`monthly-report.txt`) with an external partner under strict security constraints: **no public access**, **read-only permissions**, a **highly restricted time window**, and **zero exposure** of root storage account keys.
+Hands-on Microsoft Azure lab demonstrating private file sharing using **Azure Blob Storage**, a **stored access policy**, a **read-only time-limited SAS**, and **lifecycle management**.
 
-To achieve this, the project leverages a **Stored Access Policy (SAP)** combined with a **Shared Access Signature (Signature-level SAS)**, providing a fully revocable and auditable sharing solution.
+## Objective
 
----
+Share a file with an external partner without enabling anonymous public access or sharing the storage account's access keys.
 
-## 🏗️ Resource Hierarchy & Architecture
----
+## What I Built
 
-## ⚙️ Engineering Reference & Visuals
-The deployment includes infrastructure configuration in North Europe with hardened private containers (`partner-drop`) blocking anonymous access. Configuration screenshots are stored in the repository (e.g., `../01-resource-group-creation.png` through `../06-generate-sas-token-url.png`).
+* Created a **Standard LRS Azure Storage account**
+* Created a private Blob Storage container: `partner-drop`
+* Uploaded a sample file: `monthly-report.txt`
+* Created a stored access policy: `partner-read-policy`
+* Generated a read-only, time-limited SAS for the file
+* Verified that direct unauthenticated access was blocked
+* Added a lifecycle management rule to automatically delete blobs after 30 days
 
----
+## Troubleshooting
 
-## 🔐 Security Engineering: Stored Access Policies
-Using a **Stored Access Policy (`partner-read-policy`)** avoids ad-hoc SAS risks, allowing centralized expiration control and instant revocation without root key rotation.
+The SAS URL initially returned an `AuthenticationFailed` error.
 
----
+I checked the stored access policy and found that I had entered the validity time incorrectly. After correcting the policy's time window and generating the SAS again, the file became accessible.
 
-## 🛠️ Troubleshooting & Remediation
-* **Endpoint Boundary Test:** Direct unauthenticated requests return `PublicAccessNotPermitted` (`../07-direct-url-access-denied.png`).
-* **Time Synchronization:** Time zone mismatches caused initial `AuthenticationFailed` errors (`../08-sas-url-initially-denied.png`), resolved by synchronizing policy timeframes (`../09-sas-url-access-granted-after-time-fix.png`).
-* **Verification:** Successful retrieval is confirmed (`../10-sas-url-access-granted.png`), with automated lifecycle rules applied (`../11-lifecycle-management-rule.png`).
+## Security
 
----
+* Anonymous/public access was disabled.
+* The shared access was read-only and time-limited.
+* The storage account's access keys were not shared with the external partner.
+* A stored access policy was used to manage the SAS access.
+* Lifecycle management was configured to automate cleanup.
 
-## 🧠 Core Competencies Proven
-1. Least Privilege Principle implementation.
-2. Azure REST API XML error syntax analysis.
-3. Automated compliance lifecycle controls.
+## Production Perspective
+
+This was a hands-on training lab rather than a production implementation. In a production environment, SAS generation, secret management, monitoring, and storage redundancy would be designed according to the application's security and business requirements.
+
+## Case Study
+
+**[View the full Lab 05 case study (PDF)](Lab-05-Secure-File-Sharing.pdf)**
