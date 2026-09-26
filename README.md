@@ -1,5 +1,11 @@
 # AZ-900 Microsoft Azure Hands-On Portfolio
 
-This repository serves as a structured log of practical deployment environments and administrative labs mapped against the **Microsoft AZ-900: Azure Fundamentals** engineering objectives, featuring implementations such as secure third-party file sharing, storage security, and operational troubleshooting.
+Welcome to my cloud engineering portfolio. This repository serves as a centralized directory of practical labs mapped against the **Microsoft AZ-900: Azure Fundamentals** objectives.
 
-*(For the complete markdown configuration and documentation details, please refer to the repository source at {Link: GitHub Repository https://github.com/Mohamed-it-admin/az-900-portfolio}).*
+---
+
+## 📂 Active Lab Repositories
+
+### 🔐 [Lab 05: Secure Third-Party File Sharing](./05-secure-file-sharing/README.md)
+* **Core Technologies:** Azure Blob Storage, Stored Access Policies (SAP), Shared Access Signatures (SAS), Storage Data Security.
+* **Objective:** Architectural implementation of a zero-trust, business-to-business (B2B) object sharing pattern providing granular, time-limited, and instantly revocable read paths.
