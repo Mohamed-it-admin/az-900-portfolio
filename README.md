@@ -16,6 +16,14 @@ These labs are completed as part of my Azure learning and certification preparat
 
 A concise case study and visual evidence are included in the lab folder.
 
+### 💰 [Lab 06 — Cost Guardrails](06-cost-guardrails/)
+
+**Technologies:** Azure Resource Groups, Storage, Cost Management, Azure Policy
+
+**Objective:** Add cost-tracking tags, create a budget with alerts, and use Azure Policy to control resource locations.
+
+A short case study and visual evidence are included in the lab folder.
+
 ---
 
 ## 🎯 Focus Areas
