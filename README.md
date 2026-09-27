@@ -24,6 +24,14 @@ A concise case study and visual evidence are included in the lab folder.
 
 A short case study and visual evidence are included in the lab folder.
 
+### 🚨 [Lab 07 — Service Health & Activity Log Alerts](07-service-health-activity-alerts/)
+
+**Technologies:** Azure Monitor, Service Health, Action Groups, Activity Log
+
+**Objective:** Create Azure alerts for platform service issues, planned maintenance, and resource management events.
+
+A short case study and visual evidence are included in the lab folder.
+
 ---
 
 ## 🎯 Focus Areas
