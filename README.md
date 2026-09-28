@@ -28,6 +28,16 @@ A concise case study and visual evidence are included in the lab folder.
 
 A concise case study and visual evidence are included in the lab folder.
 
+### ⚡ [Lab 03 — Azure Functions HTTP Endpoint](https://github.com/Mohamed-it-admin/az-900-portfolio/tree/main/03-azure-functions-http-endpoint)
+
+**Technologies:** Azure Functions, Flex Consumption, Node.js, Azure Cloud Shell, Application Insights
+
+**Objective:** Create and deploy a serverless HTTP-triggered function, test the endpoint, secure it with function-level authorization, and review invocation telemetry.
+
+**Case Study:** [Lab-03-Azure-Functions-HTTP-Endpoint.pdf](https://github.com/Mohamed-it-admin/az-900-portfolio/blob/main/03-azure-functions-http-endpoint/Lab-03-Azure-Functions-HTTP-Endpoint.pdf)
+
+A concise case study and visual evidence are included in the lab folder.
+
 ### 🔐 [Lab 05 — Secure File Sharing](https://github.com/Mohamed-it-admin/az-900-portfolio/tree/main/05-secure-file-sharing)
 
 **Technologies:** Azure Blob Storage, Stored Access Policies, SAS, Lifecycle Management
