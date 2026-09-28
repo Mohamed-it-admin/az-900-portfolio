@@ -6,9 +6,10 @@ These labs are completed as part of my Azure learning and certification preparat
 
 ---
 
-## 📂 Labs
+<details>
+<summary><strong>📂 Labs</strong></summary>
 
-### 🔐 [Lab 05 — Secure File Sharing](05-secure-file-sharing/)
+### 🔐 [Lab 05 — Secure File Sharing](https://github.com/Mohamed-it-admin/az-900-portfolio/blob/main/05-secure-file-sharing)
 
 **Technologies:** Azure Blob Storage, Stored Access Policies, SAS, Lifecycle Management
 
@@ -16,7 +17,7 @@ These labs are completed as part of my Azure learning and certification preparat
 
 A concise case study and visual evidence are included in the lab folder.
 
-### 💰 [Lab 06 — Cost Guardrails](06-cost-guardrails/)
+### 💰 [Lab 06 — Cost Guardrails](https://github.com/Mohamed-it-admin/az-900-portfolio/blob/main/06-cost-guardrails)
 
 **Technologies:** Azure Resource Groups, Storage, Cost Management, Azure Policy
 
@@ -24,7 +25,7 @@ A concise case study and visual evidence are included in the lab folder.
 
 A short case study and visual evidence are included in the lab folder.
 
-### 🚨 [Lab 07 — Service Health & Activity Log Alerts](07-service-health-activity-alerts/)
+### 🚨 [Lab 07 — Service Health & Activity Log Alerts](https://github.com/Mohamed-it-admin/az-900-portfolio/blob/main/07-service-health-activity-alerts)
 
 **Technologies:** Azure Monitor, Service Health, Action Groups, Activity Log
 
@@ -32,14 +33,15 @@ A short case study and visual evidence are included in the lab folder.
 
 A short case study and visual evidence are included in the lab folder.
 
-### 💻 [Lab 08 — Cloud Shell and Azure CLI](08-cloud-shell-azure-cli/)
+### 💻 [Lab 08 — Cloud Shell and Azure CLI](https://github.com/Mohamed-it-admin/az-900-portfolio/blob/main/08-cloud-shell-azure-cli)
 
 **Technologies:** Azure Cloud Shell, Azure CLI, Azure Resource Manager, Azure Storage, JMESPath
 
 **Objective:** Manage Azure resources from the command line by creating, tagging, querying, and cleaning up resources with Azure CLI.
 
 A short case study and visual evidence are included in the lab folder.
----
+
+</details>
 
 ## 🎯 Focus Areas
 
