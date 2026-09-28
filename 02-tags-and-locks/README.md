@@ -59,4 +59,6 @@ This lab gave me hands-on practice with Azure tags and resource locks. I learned
 
 ## Evidence
 
-Screenshots from the lab are included in the `screenshot
+[View the Lab 02 case study (PDF)](Lab-02-Tags-and-Locks.pdf)
+
+Screenshots from the lab are included in the `screenshots` folder.
