@@ -32,6 +32,13 @@ A short case study and visual evidence are included in the lab folder.
 
 A short case study and visual evidence are included in the lab folder.
 
+### 💻 [Lab 08 — Cloud Shell and Azure CLI](08-cloud-shell-azure-cli/)
+
+**Technologies:** Azure Cloud Shell, Azure CLI, Azure Resource Manager, Azure Storage, JMESPath
+
+**Objective:** Manage Azure resources from the command line by creating, tagging, querying, and cleaning up resources with Azure CLI.
+
+A short case study and visual evidence are included in the lab folder.
 ---
 
 ## 🎯 Focus Areas
