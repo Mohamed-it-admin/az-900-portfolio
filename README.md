@@ -9,6 +9,16 @@ These labs are completed as part of my Azure learning and certification preparat
 <details>
 <summary><strong>📂 Labs</strong></summary>
 
+### 🌐 [Lab 01 — Static Website with Azure Blob Storage](https://github.com/Mohamed-it-admin/az-900-portfolio/tree/main/01-static-website)
+
+**Technologies:** Azure Blob Storage, Static Website Hosting, Azure Portal, HTML
+
+**Objective:** Publish and update a static website using Azure Blob Storage, including a custom 404 page and website verification.
+
+**Case Study:** [Lab-01-Static-Website.pdf](https://github.com/Mohamed-it-admin/az-900-portfolio/blob/main/01-static-website/Lab-01-Static-Website.pdf)
+
+A concise case study and visual evidence are included in the lab folder.
+
 ### 🔐 [Lab 05 — Secure File Sharing](https://github.com/Mohamed-it-admin/az-900-portfolio/blob/main/05-secure-file-sharing)
 
 **Technologies:** Azure Blob Storage, Stored Access Policies, SAS, Lifecycle Management
