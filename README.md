@@ -15,7 +15,7 @@ These labs are completed as part of my Azure learning and certification preparat
 
 **Objective:** Publish and update a static website using Azure Blob Storage, including a custom 404 page and website verification.
 
-**Case Study:** [Lab-01-Static-Website.pdf](https://github.com/Mohamed-it-admin/az-900-portfolio/blob/main/01-static-website/Lab-01-Static-Website.pdf)
+**Case Study:** [Lab-01-Static-Website-Azure-Storage.pdf](https://github.com/Mohamed-it-admin/az-900-portfolio/blob/main/01-static-website/Lab-01-Static-Website-Azure-Storage.pdf)
 
 A concise case study and visual evidence are included in the lab folder.
 
