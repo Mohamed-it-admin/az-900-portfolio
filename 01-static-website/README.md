@@ -36,4 +36,7 @@ This lab gave me hands-on practice with publishing static website content using 
 
 ## Evidence
 
-[View the Lab 01 case study (PDF)](Lab-01-Static-Website.pdf)
+## Evidence
+
+[View the Lab 01 case study (PDF)](Lab-01-Static-Website-Azure-Storage.pdf)
+
