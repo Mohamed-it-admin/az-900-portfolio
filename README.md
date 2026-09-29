@@ -17,8 +17,6 @@ These labs are completed as part of my Azure learning and certification preparat
 
 **Case Study:** [Lab-01-Static-Website-Azure-Storage.pdf](01-static-website/Lab-01-Static-Website-Azure-Storage.pdf)
 
-A concise case study and visual evidence are included in the lab folder.
-
 ### 🔐 [Lab 02 — Tags and Resource Locks](02-tags-and-locks)
 
 **Technologies:** Azure Resource Groups, Azure Storage, Resource Tags, Resource Locks
@@ -26,8 +24,6 @@ A concise case study and visual evidence are included in the lab folder.
 **Objective:** Organize Azure resources with tags and protect resources from accidental changes or deletion using resource locks.
 
 **Case Study:** [Lab-02-Tags-and-Locks.pdf](02-tags-and-locks/Lab-02-Tags-and-Locks.pdf)
-
-A concise case study and visual evidence are included in the lab folder.
 
 ### ⚡ [Lab 03 — Azure Functions HTTP Endpoint](03-azure-functions-http-endpoint)
 
@@ -37,8 +33,6 @@ A concise case study and visual evidence are included in the lab folder.
 
 **Case Study:** [Lab-03-Azure-Functions-HTTP-Endpoint.pdf](03-azure-functions-http-endpoint/Lab-03-Azure-Functions-HTTP-Endpoint.pdf)
 
-A concise case study and visual evidence are included in the lab folder.
-
 ### 🔐 [Lab 04 — Entra ID and RBAC](04-entra-id-rbac)
 
 **Technologies:** Microsoft Entra ID, Security Groups, Azure RBAC, Access Control (IAM), Activity Log
@@ -46,8 +40,6 @@ A concise case study and visual evidence are included in the lab folder.
 **Objective:** Create a group-based access model, assign the Reader role at resource-group scope, and verify least-privilege permissions.
 
 **Case Study:** [Lab-04-Entra-ID-and-RBAC.pdf](04-entra-id-rbac/Lab-04-Entra-ID-and-RBAC.pdf)
-
-A concise case study and visual evidence are included in the lab folder.
 
 ### 🔐 [Lab 05 — Secure File Sharing](05-secure-file-sharing)
 
@@ -57,8 +49,6 @@ A concise case study and visual evidence are included in the lab folder.
 
 **Case Study:** [Lab-05-Secure-File-Sharing.pdf](05-secure-file-sharing/Lab-05-Secure-File-Sharing.pdf)
 
-A concise case study and visual evidence are included in the lab folder.
-
 ### 💰 [Lab 06 — Cost Guardrails](06-cost-guardrails)
 
 **Technologies:** Azure Resource Groups, Storage, Cost Management, Azure Policy
@@ -66,8 +56,6 @@ A concise case study and visual evidence are included in the lab folder.
 **Objective:** Add cost-tracking tags, create a budget with alerts, and use Azure Policy to control resource locations.
 
 **Case Study:** [Lab-06-Cost-Guardrails.pdf](06-cost-guardrails/Lab-06-Cost-Guardrails.pdf)
-
-A short case study and visual evidence are included in the lab folder.
 
 ### 🚨 [Lab 07 — Service Health & Activity Log Alerts](07-service-health-activity-alerts)
 
@@ -77,8 +65,6 @@ A short case study and visual evidence are included in the lab folder.
 
 **Case Study:** [Lab-07-Service-Health-Activity-Alerts.pdf](07-service-health-activity-alerts/Lab-07-Service-Health-Activity-Alerts.pdf)
 
-A short case study and visual evidence are included in the lab folder.
-
 ### 💻 [Lab 08 — Cloud Shell and Azure CLI](08-cloud-shell-azure-cli)
 
 **Technologies:** Azure Cloud Shell, Azure CLI, Azure Resource Manager, Azure Storage, JMESPath
@@ -86,8 +72,6 @@ A short case study and visual evidence are included in the lab folder.
 **Objective:** Manage Azure resources from the command line by creating, tagging, querying, and cleaning up resources with Azure CLI.
 
 **Case Study:** [Lab-08-Cloud-Shell-Azure-CLI.pdf](08-cloud-shell-azure-cli/Lab-08-Cloud-Shell-Azure-CLI.pdf)
-
-A short case study and visual evidence are included in the lab folder.
 
 </details>
 
