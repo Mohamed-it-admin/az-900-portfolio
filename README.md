@@ -38,6 +38,16 @@ A concise case study and visual evidence are included in the lab folder.
 
 A concise case study and visual evidence are included in the lab folder.
 
+### 🔐 [Lab 04 — Entra ID and RBAC](https://github.com/Mohamed-it-admin/az-900-portfolio/tree/main/04-entra-id-rbac)
+
+**Technologies:** Microsoft Entra ID, Security Groups, Azure RBAC, Access Control (IAM), Activity Log
+
+**Objective:** Create a group-based access model, assign the Reader role at resource-group scope, and verify least-privilege permissions.
+
+**Case Study:** [Lab-04-Entra-ID-and-RBAC.pdf](https://github.com/Mohamed-it-admin/az-900-portfolio/blob/main/04-entra-id-rbac/Lab-04-Entra-ID-and-RBAC.pdf)
+
+A concise case study and visual evidence are included in the lab folder.
+
 ### 🔐 [Lab 05 — Secure File Sharing](https://github.com/Mohamed-it-admin/az-900-portfolio/tree/main/05-secure-file-sharing)
 
 **Technologies:** Azure Blob Storage, Stored Access Policies, SAS, Lifecycle Management
